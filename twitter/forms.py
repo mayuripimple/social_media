@@ -15,6 +15,8 @@ class CredentialsForm(forms.Form):
         cleaned_data = self.cleaned_data
         print("cleaned_data===",cleaned_data)
 
+        print("Sign In View")
+
 
 class HashTagSearchForm(forms.Form):
     hash_tag = forms.CharField(required=True,
